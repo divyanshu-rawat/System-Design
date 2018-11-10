@@ -24,3 +24,5 @@ The drawback is that the fault-tolerance suffers. When one shard of the cluster 
 
 REFERENCE - https://dba.stackexchange.com/questions/52632/difference-between-sharding-and-replication-on-mongodb
 
+
+When you want to split your data of 75GB into 3 shards of 25GB each, you need at least 6 database servers organized in three replica-sets. Each replica-set consists of two servers who have the same 25GB of data.
